@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EBEA5DD3-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{8BA54AE3-2F66-41BA-8700-28704971C2EA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.AspNetCore.ConfigurationExtensions.Sample", "samples\MicroNetCore.AspNetCore.ConfigurationExtensions.Sample\MicroNetCore.AspNetCore.ConfigurationExtensions.Sample.csproj", "{0F799C83-78F1-47A5-997A-F993E2D14235}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{DC5A0465-98BA-4E18-B0B3-C3495B0867A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5A0465-98BA-4E18-B0B3-C3495B0867A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5A0465-98BA-4E18-B0B3-C3495B0867A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F799C83-78F1-47A5-997A-F993E2D14235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F799C83-78F1-47A5-997A-F993E2D14235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F799C83-78F1-47A5-997A-F993E2D14235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F799C83-78F1-47A5-997A-F993E2D14235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DC5A0465-98BA-4E18-B0B3-C3495B0867A3} = {D5C6E21A-A60F-4798-BBC1-9EA4027429CE}
+		{0F799C83-78F1-47A5-997A-F993E2D14235} = {8BA54AE3-2F66-41BA-8700-28704971C2EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DD1FD10-6271-48CE-9D4B-32B73FE06450}
