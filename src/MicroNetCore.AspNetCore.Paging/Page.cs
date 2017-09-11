@@ -3,15 +3,19 @@ using System.Runtime.Serialization;
 
 namespace MicroNetCore.AspNetCore.Paging
 {
-    public sealed class Page<TItem> : List<TItem>
+    [DataContract]
+    public sealed class Page<TItem>
     {
         public Page(int pageCount, int pageIndex, int pageSize, IEnumerable<TItem> items)
-            : base(items)
         {
+            Items = items;
             PageCount = pageCount;
             PageIndex = pageIndex;
             PageSize = pageSize;
         }
+
+        [DataMember]
+        public IEnumerable<TItem> Items { get; }
 
         [DataMember]
         public int PageCount { get; }
