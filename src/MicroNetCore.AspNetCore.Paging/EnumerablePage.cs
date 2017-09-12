@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
 
 namespace MicroNetCore.AspNetCore.Paging
 {
     [DataContract]
-    public sealed class Page<TItem>
+    public sealed class EnumerablePage<TItem> : IEnumerablePage<TItem>
     {
-        public Page(int pageCount, int pageIndex, int pageSize, IEnumerable<TItem> items)
+        public EnumerablePage(int pageCount, int pageIndex, int pageSize, IEnumerable<TItem> items)
         {
             Items = items;
             PageCount = pageCount;
