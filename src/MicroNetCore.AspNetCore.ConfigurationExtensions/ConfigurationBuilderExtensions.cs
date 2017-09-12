@@ -22,7 +22,8 @@ namespace MicroNetCore.AspNetCore.ConfigurationExtensions
         /// <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" /> to add to.</param>
         /// <param name="path">
         ///     Path relative to the base path stored in
-        ///     <see cref="P:Microsoft.Extensions.Configuration.IConfigurationBuilder.Properties" /> of <paramref name="builder" />.
+        ///     <see cref="P:Microsoft.Extensions.Configuration.IConfigurationBuilder.Properties" /> of <paramref name="builder" />
+        ///     .
         /// </param>
         /// <param name="optional">Whether the file is optional.</param>
         /// <param name="reloadOnChange">Whether the configuration should be reloaded if the file changes.</param>

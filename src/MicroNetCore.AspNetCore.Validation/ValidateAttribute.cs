@@ -1,5 +1,4 @@
 ﻿using System;
-using MicroNetCore.AspNetCore.ResponseExceptions.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
