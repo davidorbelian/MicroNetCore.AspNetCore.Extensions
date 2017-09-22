@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.AspNetCore.ConfigurationExtensions", "src\MicroNetCore.AspNetCore.ConfigurationExtensions\MicroNetCore.AspNetCore.ConfigurationExtensions.csproj", "{DC5A0465-98BA-4E18-B0B3-C3495B0867A3}"
 EndProject
@@ -13,9 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{8BA5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.AspNetCore.ConfigurationExtensions.Sample", "samples\MicroNetCore.AspNetCore.ConfigurationExtensions.Sample\MicroNetCore.AspNetCore.ConfigurationExtensions.Sample.csproj", "{0F799C83-78F1-47A5-997A-F993E2D14235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.AspNetCore.Validation", "src\MicroNetCore.AspNetCore.Validation\MicroNetCore.AspNetCore.Validation.csproj", "{A0454E5F-A6CE-4B2F-8F1A-31ABE6C6712E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.AspNetCore.Validation", "src\MicroNetCore.AspNetCore.Validation\MicroNetCore.AspNetCore.Validation.csproj", "{A0454E5F-A6CE-4B2F-8F1A-31ABE6C6712E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.AspNetCore.Paging", "src\MicroNetCore.AspNetCore.Paging\MicroNetCore.AspNetCore.Paging.csproj", "{C622C45A-7B7F-4A3A-BAAC-2FF1935B7119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.AspNetCore.Paging", "src\MicroNetCore.AspNetCore.Paging\MicroNetCore.AspNetCore.Paging.csproj", "{C622C45A-7B7F-4A3A-BAAC-2FF1935B7119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.Collections", "src\MicroNetCore.Collections\MicroNetCore.Collections.csproj", "{DFE7C971-F5F8-4829-84A8-33CAB2454159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.Collections.Tests", "test\MicroNetCore.Collections.Tests\MicroNetCore.Collections.Tests.csproj", "{8CAEC429-8885-4A85-A945-3708A297CEE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{C622C45A-7B7F-4A3A-BAAC-2FF1935B7119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C622C45A-7B7F-4A3A-BAAC-2FF1935B7119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C622C45A-7B7F-4A3A-BAAC-2FF1935B7119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE7C971-F5F8-4829-84A8-33CAB2454159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE7C971-F5F8-4829-84A8-33CAB2454159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE7C971-F5F8-4829-84A8-33CAB2454159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE7C971-F5F8-4829-84A8-33CAB2454159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAEC429-8885-4A85-A945-3708A297CEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAEC429-8885-4A85-A945-3708A297CEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAEC429-8885-4A85-A945-3708A297CEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAEC429-8885-4A85-A945-3708A297CEE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +60,8 @@ Global
 		{0F799C83-78F1-47A5-997A-F993E2D14235} = {8BA54AE3-2F66-41BA-8700-28704971C2EA}
 		{A0454E5F-A6CE-4B2F-8F1A-31ABE6C6712E} = {D5C6E21A-A60F-4798-BBC1-9EA4027429CE}
 		{C622C45A-7B7F-4A3A-BAAC-2FF1935B7119} = {D5C6E21A-A60F-4798-BBC1-9EA4027429CE}
+		{DFE7C971-F5F8-4829-84A8-33CAB2454159} = {D5C6E21A-A60F-4798-BBC1-9EA4027429CE}
+		{8CAEC429-8885-4A85-A945-3708A297CEE1} = {EBEA5DD3-3B5A-4C32-8185-06FE3A6557BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DD1FD10-6271-48CE-9D4B-32B73FE06450}
